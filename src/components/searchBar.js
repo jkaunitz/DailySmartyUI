@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
 import { Field, reduxForm} from 'redux-form';
 
-import { withRouter } from 'react';
+import { withRouter } from 'react-router-dom';
 
 class SearchBar extends Component {
 
