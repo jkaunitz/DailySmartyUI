@@ -1,7 +1,7 @@
 import React, { Component } from 'react' ;
 import { Field, reduxForm} from 'redux-form';
 
-import { withRouter } from 'redux-router-dom';
+//import { withRouter } from 'redux-router-dom';
 
 class SearchBar extends Component {
 
@@ -30,6 +30,6 @@ SearchBar = reduxForm({
     form: 'searchBar'
 })(SearchBar);
 
-SearchBar = withRouter(SearchBar);
+//SearchBar = withRouter(SearchBar);
 
 export default SearchBar;
