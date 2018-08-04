@@ -41,8 +41,12 @@
     justify-items: center;
 
     input {
-        font-size: 110px;
-        height: 40px;
+        height: 118px;
+        font-size: 40px;
+        @media screen and (max-width: 600px) {
+            font-size: 23px;
+            height: 59px;
+        }
     }
 }
 
